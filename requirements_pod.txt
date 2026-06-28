@@ -1,0 +1,19 @@
+# FastAPI video generation servers
+fastapi>=0.111.0
+uvicorn>=0.30.0
+Pillow>=10.0.0
+imageio[ffmpeg]>=2.34.0
+
+# HunyuanVideo / Wan2.2 via diffusers
+torch>=2.3.0
+diffusers>=0.32.0
+transformers>=4.44.0
+accelerate>=0.33.0
+sentencepiece
+protobuf
+
+# LoRA training
+bitsandbytes>=0.43.0
+
+# Vast.ai Serverless PyWorker (only needed in serverless mode, harmless in spot pod)
+vastai>=0.1.0
